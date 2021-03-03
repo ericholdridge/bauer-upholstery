@@ -1,10 +1,9 @@
 import Head from "next/head";
-import Hero from "../components/Hero/Hero";
 
 // Components
 import Navbar from "../components/Navbar/Navbar";
-
-// Styles
+import Hero from "../components/Home/Hero/Hero"
+import Dedication from "../components/Home/Dedication/Dedication";
 
 const Home = () => {
   return (
@@ -15,6 +14,7 @@ const Home = () => {
       </Head>
       <Navbar />
       <Hero />
+      <Dedication />
     </section>
   );
 };

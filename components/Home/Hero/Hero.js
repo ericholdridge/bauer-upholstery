@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Button from "../Utils/Button";
+import Button from "../../Utils/Button";
 
 // Styles
 import styles from "../Hero/Hero.module.scss";
-import btnStyles from "../Utils/Button.module.scss";
+import btnStyles from "../../Utils/Button.module.scss";
 
 const Hero = () => {
   return (
