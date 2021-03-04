@@ -14,7 +14,7 @@ const Dedication = () => {
             <a>
               <div className={styles.imgWrap}>
                 <Image
-                  src="/../public/static/images/hero-image.jpg"
+                  src="/hero-image.jpg"
                   layout="fill"
                   objectFit="cover"
                   quality={100}
@@ -29,7 +29,7 @@ const Dedication = () => {
             <a>
               <div className={styles.imgWrap}>
                 <Image
-                  src="/../public/static/images/hero-image.jpg"
+                  src="/hero-image.jpg"
                   layout="fill"
                   objectFit="cover"
                   quality={100}
@@ -44,7 +44,7 @@ const Dedication = () => {
             <a>
               <div className={styles.imgWrap}>
                 <Image
-                  src="/../public/static/images/hero-image.jpg"
+                  src="/hero-image.jpg"
                   layout="fill"
                   objectFit="cover"
                   quality={100}

@@ -13,7 +13,7 @@ const Hero = () => {
         <div className={styles.heroImage}>
           <div className={styles.overlay}></div>
           <Image
-            src="/../public/static/images/hero-image.jpg"
+            src="/hero-image.jpg"
             layout="fill"
             objectFit="cover"
             quality={100}

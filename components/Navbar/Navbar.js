@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link href="/">
           <a className={styles.logo}>
             <Image
-              src="/../public/static/images/bauerUpholsteryLogo.svg"
+              src="/bauerUpholsteryLogo.svg"
               alt="Bauer RV Upholstery"
               width={400}
               height={200}
