@@ -1,9 +1,8 @@
 .dedication {
   width: 100%;
   .container {
-    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 100px 0;
+    background: #fff;
     h1 {
       text-align: center;
       margin: 0 0 40px 0;
@@ -13,26 +12,6 @@
     .wrapper {
       display: flex;
       justify-content: space-evenly;
-      a {
-        width: 100%;
-        max-width: 400px;
-        transition: all 0.3s ease-in-out;
-        .imgWrap {
-          position: relative;
-          height: 400px;
-        }
-        .boxInfo {
-          padding: 0 16px;
-          h2 {
-            font-size: 1.2rem;
-            font-weight: 600;
-          }
-        }
-        &:hover {
-          box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2),
-            0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-      }
     }
   }
 }

@@ -8,6 +8,9 @@
   cursor: pointer;
   letter-spacing: 1px;
   margin: 0 10px;
+  &:focus {
+    outline: transparent;
+  }
 }
 
 .btn2 {
@@ -20,4 +23,7 @@
   cursor: pointer;
   letter-spacing: 1px;
   margin: 0 10px;
+  &:focus {
+    outline: transparent;
+  }
 }

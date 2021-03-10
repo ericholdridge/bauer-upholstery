@@ -1,0 +1,36 @@
+.callToAction {
+  width: 100%;
+  .container {
+    background: #3e9ebf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #fff;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .contactUs {
+      button {
+        padding: 16px 24px;
+        font-weight: 600;
+        background: #000;
+        color: #fff;
+        border: transparent;
+        cursor: pointer;
+        font-size: 1rem;
+        &:focus {
+          outline: transparent;
+        }
+      }
+    }
+  }
+}
