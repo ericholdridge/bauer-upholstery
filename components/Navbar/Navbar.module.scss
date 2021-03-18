@@ -5,6 +5,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
     .logo {
       width: 100%;
       max-width: 200px;
@@ -19,7 +21,13 @@
         a {
           color: rgb(96, 96, 96);
           font-weight: 400;
-          font-size: .9rem;
+          font-size: 1.3rem;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+        a:hover {
+          padding-bottom: 10px;
+          border-bottom: 3px solid #3e9ebf;
         }
         &:last-child {
           a {
@@ -29,7 +37,7 @@
             cursor: pointer;
             transition: all 200ms ease-in-out;
             margin: 0 0 0 10px;
-            font-size: .9rem;
+            font-size: 1.3rem;
             color: #3e9ebf;
             &:hover {
               background: #3e9ebf;
