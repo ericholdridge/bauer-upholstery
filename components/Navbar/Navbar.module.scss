@@ -5,6 +5,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #fff;
+    padding: 0 10px;
     .logo {
       width: 100%;
       max-width: 200px;
@@ -19,7 +21,7 @@
         a {
           color: rgb(96, 96, 96);
           font-weight: 400;
-          font-size: .9rem;
+          font-size: 0.9rem;
         }
         &:last-child {
           a {
@@ -29,12 +31,42 @@
             cursor: pointer;
             transition: all 200ms ease-in-out;
             margin: 0 0 0 10px;
-            font-size: .9rem;
+            font-size: 0.9rem;
             color: #3e9ebf;
             &:hover {
               background: #3e9ebf;
               color: #fff;
               border: 1px solid transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    border: 1px solid red;
+    .container {
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+      ul {
+        flex-direction: column;
+        align-items: start;
+        margin: 0;
+        padding: 0;
+        // display: none;
+        li {
+          margin: 10px 0;
+          a {
+            font-size: 1.4rem;
+          }
+          &:last-child {
+            margin: 2rem 0;
+            a {
+              margin: 0;
             }
           }
         }

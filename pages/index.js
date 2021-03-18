@@ -1,4 +1,6 @@
 import Head from "next/head";
+// Styles
+import styles from "./Index.module.scss";
 
 // Components
 import Navbar from "../components/Navbar/Navbar";
@@ -10,7 +12,7 @@ import Footer from "../components/Home/Footer/Footer";
 
 const Home = () => {
   return (
-    <section className="home">
+    <main className={styles.main}>
       <Head>
         <title>Bauer RV Upholstery</title>
         <link rel="icon" href="/favicon.svg" />
@@ -21,7 +23,7 @@ const Home = () => {
       <CallToAction />
       <HighlightsSection />
       <Footer />
-    </section>
+    </main>
   );
 };
 

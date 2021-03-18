@@ -1,6 +1,7 @@
 .dedication {
   width: 100%;
   .container {
+    width: 100%;
     padding: 100px 0;
     background: #fff;
     h1 {
@@ -12,6 +13,14 @@
     .wrapper {
       display: flex;
       justify-content: space-evenly;
+    }
+  }
+}
+
+@media (max-width: 1350px) {
+  .dedication {
+    .container {
+      width: 95%;
     }
   }
 }
