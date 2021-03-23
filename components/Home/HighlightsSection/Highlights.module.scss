@@ -1,7 +1,6 @@
 .highlights {
   width: 100%;
   .container {
-    background: #fff;
     .boxWrapper {
       display: flex;
       .box{
@@ -41,6 +40,56 @@
             &:focus{
               outline: transparent;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .highlights {
+    .container {
+      .boxWrapper {
+        flex-direction: column-reverse;
+        align-content: space-around;
+        max-width: 90%;
+        margin: 3rem auto;
+        &:nth-child(1) {
+          flex-direction: column;
+        }
+        .box{
+          height: 300px;
+        }
+        .textBox {
+          .textWrap {
+            h1 {
+              text-align: center;
+              padding: 14px 0 0 0;
+            }
+            .btn {
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1112px){
+  .highlights {
+    .container {
+      .boxWrapper {
+        .box {
+          width: 50%;
+          height: 420px;
+        }
+        .textBox {
+          width: 50%;
+          .textWrap {
+            max-width: 350px;
           }
         }
       }

@@ -22,11 +22,16 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
 h1 {
   font-family: "interstate-compressed", sans-serif;
   font-weight: 700;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 90%;
+  }
 }

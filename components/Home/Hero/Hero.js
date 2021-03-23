@@ -8,8 +8,8 @@ import btnStyles from "../../Utils/Button.module.scss";
 
 const Hero = () => {
   return (
-    <div className={styles.hero}>
-      <div className={`container ${styles.container}`}>
+    <section className={styles.hero}>
+      <div className={styles.container}>
         <div className={styles.heroImage}>
           <div className={styles.overlay}></div>
           <Image
@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

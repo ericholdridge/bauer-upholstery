@@ -5,7 +5,7 @@ import Image from "next/image";
 const HighlightsSection = () => {
   return (
     <section className={styles.highlights}>
-      <div className={`container ${styles.container}`}>
+      <div className={styles.container}>
         <div className={styles.boxWrapper}>
           <div className={styles.box}>
             <Image
@@ -25,7 +25,9 @@ const HighlightsSection = () => {
                 customers deserve a seat cover that will last them for years to
                 come.
               </p>
-              <button>LEARN MORE</button>
+              <div className={styles.btn}>
+                <button>LEARN MORE</button>
+              </div>
             </div>
           </div>
         </div>
@@ -39,7 +41,9 @@ const HighlightsSection = () => {
                 customers seating products. We do the hard work so you don’t
                 have to.
               </p>
-              <button>LEARN MORE</button>
+              <div className={styles.btn}>
+                <button>LEARN MORE</button>
+              </div>
             </div>
           </div>
           <div className={styles.box}>

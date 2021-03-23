@@ -7,8 +7,8 @@ import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
   return (
-    <nav className={styles.navbar}>
-      <div className={`container ${styles.container}`}>
+    <nav className={`container ${styles.navbar}`}>
+      <div className={styles.container}>
         <Link href="/">
           <a className={styles.logo}>
             <Image
