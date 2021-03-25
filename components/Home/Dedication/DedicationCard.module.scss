@@ -9,17 +9,20 @@
   .boxInfo {
     padding: 0 16px;
     h2 {
-      font-size: 1.2rem;
-      font-weight: 600;
+      font-size: 1.9rem;
+      font-weight: 700;
       margin: 20px 0 0 0;
+      color: rgb(96, 96, 96);
     }
     p {
       margin: 0;
       padding: 4px 0 16px 0;
+      font-family: "Open Sans", sans-serif;
+      font-size: .9rem;
+      color: rgb(161, 161, 161);
     }
   }
   &:hover {
-    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 16px 0 rgba(100, 100, 100, 0.2),
   }
 }

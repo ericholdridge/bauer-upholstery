@@ -8,7 +8,7 @@ const DedicationSection = () => {
   return (
     <section className={`container ${styles.dedication}`}>
       <div className={styles.container}>
-        <h1>DEDICATION TO QUALITY</h1>
+        <h1>OUR DEDICATION TO QUALITY</h1>
         <div className={styles.wrapper}>
           <DedicationCard imgSrc="/hero-image.jpg" cardHeading="ULTRALEATHER" cardInfo="Highest Quality Leather Seats"/>
           <DedicationCard imgSrc="/hero-image.jpg" cardHeading="REPLACEMENT PARTS" cardInfo="OEM Replacement Seating Parts" />
